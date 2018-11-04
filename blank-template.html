@@ -6,11 +6,23 @@
 <title></title>
 <b:skin></b:skin>
 <link rel="icon" type="image/png" href="" />
+
+<script>
+<!--
+//Sortable table script- Han Yu han@velocityhsi.com
+//Script featured on http://www.javascriptkit.com
+
+var domok=document.all||document.getElementById
+if (domok)
+document.write('<SCRIPT SRC="sortTable.js"></SCRIPT>')
+-->
+</script>
+
 </head>
 
 <b:section id="test"></b:section>
 
-<body>
+<body onLoad='if (domok) initTable("table0")'>
 </body>
 
 </html>
